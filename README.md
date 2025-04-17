@@ -16,6 +16,7 @@ Some guides and Discussions I followed:
 Make sure you have enabled SR-IOV, IOMMU, iGPU, etc. There is an example for the M12-LE0 near the bottom of this "guide".   
 Updating the CPU Microcode is also a good idea.  
 I'm using Proxmox 8.4.1 for this guide.  
+The CPU is a 4650G and the Mainboard I'm using is a Gigabyte M12-LE0.  
 
 ## Modproble
 Get the IDs for the APU
