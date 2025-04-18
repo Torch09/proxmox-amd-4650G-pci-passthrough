@@ -49,7 +49,7 @@ blacklist snd_hda_intel
 blacklist ccp
 ```
 
-## GRUB
+## GRUB < Not needed if Proxmox uses UEFI
 Edit the ```GRUB_CMDLINE_LINUX_DEFAULT=``` line inside the ```/etc/default/grub```file
 We'll blacklist, add iommu, disable framebuffers
 My current config looks like this:
